@@ -1,0 +1,46 @@
+name: login_with_aws
+description: Authentication for Flutter apps with AWS Amplify.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  amplify_core: '<1.0.0'
+  amplify_auth_cognito: '<1.0.0'
+  provider: ^4.3.1
+  flare_flutter: ^2.0.6
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: RobotoMedium
+      fonts:
+        - asset: assets/fonts/Roboto-Medium.ttf
+
+  assets:
+    - assets/flare/Teddy.flr
+    - assets/images/twelve-apostles.jpg
+    - assets/images/trek-1.jpg
+    - assets/images/trek-2.jpg
+    - assets/images/trek-3.jpg
+    - assets/images/iam-cli-cheatsheet.jpg
+    - assets/images/iam-roles-for-ec2.jpg
+    - assets/images/how-alb-works.jpg
+    - assets/images/default-vpc.jpg
+    - assets/images/cognito-pools.jpg
+    - assets/images/alb-creation.jpg
